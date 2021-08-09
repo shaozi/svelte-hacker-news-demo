@@ -1,0 +1,23 @@
+{
+  "name": "svelte-hacker-news-demo",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "preview": "svelte-kit preview",
+    "lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
+    "format": "prettier --write --plugin-search-dir=. ."
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "^1.0.0-next.16",
+    "@sveltejs/kit": "next",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-svelte3": "^3.2.0",
+    "prettier": "~2.3.2",
+    "prettier-plugin-svelte": "^2.3.1",
+    "svelte": "^3.42.1",
+    "svelte-toggle": "^3.0.1"
+  },
+  "type": "module"
+}
